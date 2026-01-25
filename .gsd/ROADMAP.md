@@ -17,7 +17,7 @@
 ## Phases
 
 ### Phase 1: Content Crawl & Migration
-**Status**: ⬜ Not Started
+**Status**: 🔄 In Progress
 **Objective**: Crawl eritora.info to extract all markdown content and images.
 **Deliverables**:
 - Python script to crawl Obsidian Publish API
