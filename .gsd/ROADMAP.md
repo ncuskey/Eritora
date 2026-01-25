@@ -21,7 +21,7 @@
 - Domain `eritora.info` (or temp IP) pointing to the VM
 
 ### Phase 2: The Bridge (Discord Bot)
-**Status**: ⬜ Not Started
+**Status**: ✅ Complete
 **Objective**: Build the Discord integration that reads/writes to the repo.
 **Deliverables**:
 - Python/Node Bot running on VM
