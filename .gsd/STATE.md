@@ -1,16 +1,16 @@
-# STATE.md
+# GSD State
 
-> **Current Phase**: None
-> **Current Task**: None
-> **Status**: INITIALIZED
+> **Project**: Eritora TTRPG Wiki
+> **Status**: MILESTONE COMPLETE
+
+## Completed Milestones
+- [x] **v1.0 Eritora Wiki** (2026-01-25)
 
 ## Current Position
-- **Phase**: 4 (completed)
-- **Task**: All tasks complete
-- **Status**: Verified
-
-## Last Session Summary
-Phase 4 executed successfully. Nginx/SSL/DNS configured for eritora.wiki.
+- **Milestone**: None active
+- **Phase**: N/A
+- **Status**: Ready for new milestone
 
 ## Next Steps
-1. Project Complete! Run /complete-milestone
+1. /new-milestone — Start next milestone
+2. /audit-milestone v1.0-eritora-wiki — Review completed work
