@@ -3,6 +3,13 @@ site_url: https://eritora.info
 repo_url: https://github.com/toonight/get-shit-done-for-antigravity
 repo_name: GitHub
 
+nav:
+  - Home: index.md
+  - Community:
+      - Guides:
+          - Obsidian Setup: guides/obsidian-setup.md
+          - Deployment: guides/deployment.md
+
 theme:
   name: material
   palette:
