@@ -1,6 +1,6 @@
 *In the world of [[Eritora]] adventure is just a river bend away.* 
 
-![[Welcome to Eritora.png]]
+![Welcome to Eritora.png](Images/Welcome to Eritora.png)
 
 ### Introduction 
 This wiki is designed to be a tool for you, the adventurer, to use as a reference to all things in the world of [[Eritora]]. The **Adventurer's Hub** folder is the place where the details of your adventure live. This holds session notes, character details and other information about your adventure. Each of these notes can then link to other pages within the site so that you can quickly access information about the world.

@@ -263,7 +263,7 @@ One thing that you must do, however, is try to provide at least a hint of the da
 
 **Dagger.** *Melee or ranged weapon attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.
 
-![[Shinebright Tower.png]]
+![Shinebright Tower.png](../../../Images/Shinebright Tower.png)
 
 ---
 

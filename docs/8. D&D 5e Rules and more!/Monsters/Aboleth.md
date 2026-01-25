@@ -1,4 +1,4 @@
-![[Pasted image 20260114215645.png]]
+![Pasted image 20260114215645.png](../../Images/Pasted image 20260114215645.png)
 *Large aberration, lawful evil*
 
 **Armor Class** 17 (natural armor)

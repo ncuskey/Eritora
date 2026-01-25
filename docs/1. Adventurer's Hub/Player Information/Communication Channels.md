@@ -18,16 +18,16 @@ It's in the name: start there. This channel provides information on the differen
 
 Additionally, upon joining please select the role you usually plan to fill--either Guide or Client. Simply click the relevant emoji here:
 
-![[Pasted image 20260124143513.png]]
+![Pasted image 20260124143513.png](../../Images/Pasted image 20260124143513.png)
 
 This will give your name a color in discord for easy role identification.
 
 Dungeon Masters:
-![[Pasted image 20260124143547.png]]
+![Pasted image 20260124143547.png](../../Images/Pasted image 20260124143547.png)
 Guides:
-![[Pasted image 20260124143619.png]]
+![Pasted image 20260124143619.png](../../Images/Pasted image 20260124143619.png)
 Clients:
-![[Pasted image 20260124143722.png]]
+![Pasted image 20260124143722.png](../../Images/Pasted image 20260124143722.png)
 
 #### Bots
 
@@ -37,12 +37,12 @@ The Avrae bot can provide you with information on nearly anything in Dungeons & 
 
 Type `!help` in the avrae-bot channel to learn about what this bad boy can do. It's a lot!
 
-![[Pasted image 20260124113939.png]]
-![[Pasted image 20260124120726.png]]
+![Pasted image 20260124113939.png](../../Images/Pasted image 20260124113939.png)
+![Pasted image 20260124120726.png](../../Images/Pasted image 20260124120726.png)
 
 The Apollo bot, found in the event-bothole channel, is our primary means of scheduling and filling out parties:
 
-![[Pasted image 20260124113857.png]]
+![Pasted image 20260124113857.png](../../Images/Pasted image 20260124113857.png)
 
 Creating events will be handled by the Dungeon Master for that particular adventure. Don't forget to sign up to your own adventure!
 

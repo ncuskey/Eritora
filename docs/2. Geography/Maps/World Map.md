@@ -1,1 +1,1 @@
-![[Eritora.jpg]]
+![Eritora.jpg](../../Images/Eritora.jpg)

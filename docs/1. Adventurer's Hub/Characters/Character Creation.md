@@ -5,12 +5,12 @@ The first step to adventuring is having a character to adventure with. Here is a
 The following steps are made much easier by joining the campaign online at www.dndbeyond.com using this link: https://www.dndbeyond.com/campaigns/join/74494731777028575. When creating a character, you will be able to look at your options very easily inside the creator. 
 
 Once inside the campaign, click a create character button to move on:
-![[Pasted image 20260124122643.png]]
+![Pasted image 20260124122643.png](../../Images/Pasted image 20260124122643.png)
 This will open up the Character Builder, where you can begin your journey--but before that, a bit of housekeeping in the Home tab. Rather than explain it all, simply look at the screenshots below and ensure yours looks the same.
 
-![[Pasted image 20260124123038.png]]
-![[Pasted image 20260124123118.png]]
-![[Pasted image 20260124123155.png]]
+![Pasted image 20260124123038.png](../../Images/Pasted image 20260124123038.png)
+![Pasted image 20260124123118.png](../../Images/Pasted image 20260124123118.png)
+![Pasted image 20260124123155.png](../../Images/Pasted image 20260124123155.png)
 And with that, we're ready to get to the fun stuff!
 
 ### Step Two: The Decisions
@@ -18,7 +18,7 @@ And with that, we're ready to get to the fun stuff!
 #### Class
 
 The first (and most important) decision is your character's class. Navigate to the 1. Class tab in the character creator:
-![[Pasted image 20260124123458.png]]
+![Pasted image 20260124123458.png](../../Images/Pasted image 20260124123458.png)
 As you can see, there are several to choose from in Dungeons and Dragons, and the basics of each can be found on this site or directly in the builder itself. This is the choice that will shape your gameplay the most. 
 It is advisable to select from the classes under the "Core Rules" section rather than the 2014 versions.
 
@@ -37,7 +37,7 @@ It is advisable to select from the classes under the "Core Rules" section rather
 - [[Wizard]]
 
 After making your decision, click on it and add the class to your character. This will automatically bring you to your Class Features: 
-![[Pasted image 20260124123736.png]]
+![Pasted image 20260124123736.png](../../Images/Pasted image 20260124123736.png)
 Anything highlighted with an exclamation point (in the above case, Core Barbarian Traits and Weapon Mastery) requires your attention as there are further decisions to make. Get those taken care of (again, ask questions if unsure!) and move on to the next tab, 2. Background.
 
 #### Background
@@ -45,11 +45,11 @@ Anything highlighted with an exclamation point (in the above case, Core Barbaria
 The background decisions you make are not as mechanically meaningful as many others, but are arguably even more important--this is where we start creating the actual personality of the character. However, in the world of [[Eritora]], and especially in [[Turnbuckle Town]], your background is part of what determines your [[Character Earnings and Budgets#Client Stipends|monthly stipend]].
 
 The first step is selecting your Background. The list is long. I suggest narrowing the scope to the ones under the Core Rules header to keep things simple:
-![[Pasted image 20260124124250.png]]
+![Pasted image 20260124124250.png](../../Images/Pasted image 20260124124250.png)
 Upon selection, you will have more choices to make. So make those, as they are impactful--particularly the ability score improvements.
 
 Below, we have several sections to help refine your character:
-![[Pasted image 20260124124439.png]]
+![Pasted image 20260124124439.png](../../Images/Pasted image 20260124124439.png)
 The most important section is Character Details. These decisions are necessary. Selecting an alignment will give you a basic idea of what each one means. Choose whichever speaks to you. We will generally be skewing towards the Good/Neutral departments, but if you want to be evil and piss people off, go hog wild!
 
 More information on Faith can be found in the Religion section of the website. It is customary for folk in Eritora to worship a deity, but not strictly necessary. 
@@ -73,9 +73,9 @@ Afterwards, navigate to the 4. Abilities tab.
 Your Background and Species decisions, while impactful, are largely cosmetic. These, however, are big ones.
 
 To get started, we're going to choose the "Standard Array" method of ability score generation for every character in the campaign:
-![[Pasted image 20260124130008.png]]
+![Pasted image 20260124130008.png](../../Images/Pasted image 20260124130008.png)
 This provides you with a nice average spread of rolls for you. Simply select each number from the drop-downs below each ability score, and we're ready to roll:
-![[Pasted image 20260124130221.png]]
+![Pasted image 20260124130221.png](../../Images/Pasted image 20260124130221.png)
 If this is your first character, it is advisable to contact someone about these, as these can make a big difference to your character's efficacy.
 
 Time to move on to 5. Equipment.
@@ -85,7 +85,7 @@ Time to move on to 5. Equipment.
 This one's easy. A checkbox for your class, and a checkbox for your background. Pick one of each, and click Add Starting Equipment.
 
 You'll then want to click the boxes to wield your weapons and equip your armor:
-![[Pasted image 20260124130718.png]]
+![Pasted image 20260124130718.png](../../Images/Pasted image 20260124130718.png)
 
 #### Your Place in Turnbuckle Town
 

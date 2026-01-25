@@ -69,6 +69,8 @@ markdown_extensions:
 
 plugins:
   - search
+  - ezlinks:
+      wikilinks: true
 
 extra_css:
   - stylesheets/extra.css
