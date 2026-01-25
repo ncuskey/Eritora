@@ -12,7 +12,7 @@
 ## Phases
 
 ### Phase 1: Foundation & Infrastructure
-**Status**: ⬜ Not Started
+**Status**: ✅ Complete
 **Objective**: Establish the "Source of Truth" repo and get the minimal Wiki running on the VM.
 **Deliverables**:
 - Private GitHub Repository created
