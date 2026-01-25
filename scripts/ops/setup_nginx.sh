@@ -18,7 +18,7 @@ sudo nginx -t
 sudo systemctl reload nginx
 
 # 4. HTTPS Setup
-echo ">>> Starting Certbot (Follow the prompts)..."
-sudo certbot --nginx -d eritora.wiki -d www.eritora.wiki
+echo ">>> Starting Certbot..."
+sudo certbot --nginx -d eritora.wiki -d www.eritora.wiki --non-interactive --agree-tos --register-unsafely-without-email
 
 echo ">>> Setup Complete! Implementation of https://eritora.wiki is live."
