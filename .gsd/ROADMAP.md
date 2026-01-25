@@ -34,7 +34,7 @@
 **Objective**: Connect the local Obsidian experience and refine the Wiki look.
 
 ### Phase 4: Production Deployment
-**Status**: ⬜ Not Started
+**Status**: ✅ Complete
 **Objective**: Deploy to custom domain `eritora.wiki` with Nginx and SSL.
 **Deliverables**:
 - Nginx Configuration (`server_block`)
