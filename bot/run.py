@@ -12,7 +12,7 @@ class WikiBot(commands.Bot):
 
     async def setup_hook(self):
         # Load cogs here (deferred until created)
-        # await self.load_extension("bot.cogs.sync")
+        await self.load_extension("bot.cogs.sync")
         # await self.load_extension("bot.cogs.wiki")
         pass
 
