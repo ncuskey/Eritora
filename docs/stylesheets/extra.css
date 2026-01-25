@@ -1,4 +1,231 @@
-/* Custom CSS for Eritora Wiki */
+/*
+ * Eritora Wiki Custom Theme
+ * Based on eritora.info Obsidian Publish styling
+ */
+
+/* ============================================
+   DRACONIS FONT (Fantasy-style headers)
+   ============================================ */
+
+/* Normal Italic */
+@font-face {
+    font-family: 'Draconis';
+    src: url('../assets/fonts/draconis-italic.woff2') format('woff2'),
+        url('../assets/fonts/draconis-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Draconis';
+    src: url('../assets/fonts/draconis-bold.woff2') format('woff2'),
+        url('../assets/fonts/draconis-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Normal */
+@font-face {
+    font-family: 'Draconis';
+    src: url('../assets/fonts/draconis.woff2') format('woff2'),
+        url('../assets/fonts/draconis.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ============================================
+   ERITORA COLOR PALETTE
+   ============================================ */
+
 :root {
-    --md-primary-fg-color: #5c6bc0;
+    /* Primary Colors - Dark Red/Burgundy Theme */
+    --eritora-accent: #863737;
+    --eritora-dark-accent: #652121;
+    --eritora-lite-accent: #e06c6c;
+    --eritora-deep-dark: #3f1010;
+
+    /* Header Colors */
+    --eritora-h1: #c93c3c;
+    --eritora-h2: sandybrown;
+    --eritora-h3: #d05858;
+
+    /* Background Colors */
+    --eritora-note: #1a1e24;
+    --eritora-sidebar: #14181b;
+    --eritora-outer: #0b0f13;
+    --eritora-aside: #0e1116;
+
+    /* Text Colors */
+    --eritora-text: #dcddde;
+    --eritora-muted: #999;
+
+    /* Misc */
+    --eritora-table: #ff4a4a52;
+    --eritora-accent2: #35485f;
+}
+
+/* ============================================
+   MATERIAL THEME OVERRIDES
+   ============================================ */
+
+/* Color scheme variables */
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: var(--eritora-accent);
+    --md-primary-fg-color--light: var(--eritora-lite-accent);
+    --md-primary-fg-color--dark: var(--eritora-dark-accent);
+    --md-primary-bg-color: var(--eritora-text);
+
+    --md-accent-fg-color: var(--eritora-lite-accent);
+    --md-accent-fg-color--transparent: rgba(224, 108, 108, 0.1);
+
+    --md-default-fg-color: var(--eritora-text);
+    --md-default-fg-color--light: rgba(220, 221, 222, 0.62);
+    --md-default-fg-color--lighter: rgba(220, 221, 222, 0.32);
+    --md-default-fg-color--lightest: rgba(220, 221, 222, 0.12);
+
+    --md-default-bg-color: var(--eritora-note);
+    --md-default-bg-color--light: var(--eritora-sidebar);
+    --md-default-bg-color--lighter: var(--eritora-outer);
+    --md-default-bg-color--lightest: var(--eritora-aside);
+
+    --md-code-bg-color: rgba(0, 0, 0, 0.3);
+    --md-code-fg-color: var(--eritora-lite-accent);
+
+    --md-typeset-a-color: var(--eritora-lite-accent);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+/* Headers with Draconis font */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+    font-family: 'Draconis', Georgia, serif;
+    font-weight: 500;
+}
+
+.md-typeset h1 {
+    color: var(--eritora-h1);
+}
+
+.md-typeset h2 {
+    color: var(--eritora-h2);
+}
+
+.md-typeset h3 {
+    color: var(--eritora-h3);
+}
+
+/* Links */
+.md-typeset a {
+    color: var(--eritora-lite-accent);
+}
+
+.md-typeset a:hover {
+    color: var(--eritora-h2);
+}
+
+/* ============================================
+   NAVIGATION
+   ============================================ */
+
+/* Sidebar */
+.md-sidebar {
+    background-color: var(--eritora-sidebar);
+}
+
+/* Header bar */
+.md-header {
+    background-color: var(--eritora-dark-accent);
+}
+
+/* Navigation links */
+.md-nav__link {
+    color: var(--eritora-text);
+}
+
+.md-nav__link:hover {
+    color: var(--eritora-lite-accent);
+}
+
+.md-nav__item--active>.md-nav__link {
+    color: var(--eritora-lite-accent);
+}
+
+/* ============================================
+   CONTENT STYLING
+   ============================================ */
+
+/* Main content area */
+.md-content {
+    background-color: var(--eritora-note);
+}
+
+/* Code blocks */
+.md-typeset code {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: var(--eritora-lite-accent);
+}
+
+.md-typeset pre {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Blockquotes */
+.md-typeset blockquote {
+    border-left-color: var(--eritora-accent);
+    background-color: rgba(134, 55, 55, 0.1);
+}
+
+/* Tables */
+.md-typeset table:not([class]) th {
+    background-color: var(--eritora-dark-accent);
+    color: var(--eritora-text);
+}
+
+.md-typeset table:not([class]) tr:hover {
+    background-color: rgba(134, 55, 55, 0.1);
+}
+
+/* ============================================
+   SEARCH
+   ============================================ */
+
+.md-search__input {
+    background-color: var(--eritora-sidebar);
+}
+
+.md-search__input::placeholder {
+    color: var(--eritora-muted);
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+.md-footer {
+    background-color: var(--eritora-outer);
+}
+
+/* ============================================
+   ADMONITIONS
+   ============================================ */
+
+.md-typeset .admonition,
+.md-typeset details {
+    border-color: var(--eritora-accent);
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+    background-color: rgba(134, 55, 55, 0.2);
 }
