@@ -1,0 +1,28 @@
+# System
+.DS_Store
+Thumbs.db
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# MkDocs
+site/
+
+# Obsidian
+.obsidian/
+!.obsidian/plugins/
+!.obsidian/themes/
+
+# IDE
+.vscode/
+.idea/
+
+# GSD (Ignore templates but keep structure)
+.gsd/templates/
