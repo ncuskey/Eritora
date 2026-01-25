@@ -1,0 +1,1 @@
+Earn or achieve a goal that can’t simply be taken—win a contest, secure a title, learn a secret, or prove you’re worthy.

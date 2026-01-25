@@ -1,0 +1,1 @@
+The Dungeon Gala is an annual event, held in [[Turnbuckle Town]] and hosted by the [[Adventuring Academy]]. It offers a variety of awards for adventurers, monsters, adventure designers and CAd companies. The most prestigious award they off is the [[Adventure of the Year]] award. 

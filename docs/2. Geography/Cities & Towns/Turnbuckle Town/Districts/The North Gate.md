@@ -1,0 +1,1 @@
+The gate on the North side of [[Turnbuckle Town]] that leads to the [[Amorpha Pass]]. This is the more heavily fortified side of the town and is near [[The Mayorial Palace]].

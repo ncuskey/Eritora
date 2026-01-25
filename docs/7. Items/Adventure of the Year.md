@@ -1,0 +1,1 @@
+Adventure of the Year is most sought after award for any CAd company in [[Eritora]]. It is given every year by the [[Adventuring Academy]] at the [[Dungeon Gala]]. 

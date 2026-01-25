@@ -1,0 +1,1 @@
+A small town on the North side of [[Amorpha Pass]]. Economically lives in the shadow of [[Turnbuckle Town]]. 

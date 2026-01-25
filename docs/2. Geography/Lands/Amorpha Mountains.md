@@ -1,0 +1,1 @@
+The Amorpha mountains are the largest range of mountains in [[Eritora]]. They split the continent north to south and on a clear day can be seen from far away. The tops of these mountains reach thousands of feet into the air and are home to many monsters and dangers loved by adventurers everywhere. 

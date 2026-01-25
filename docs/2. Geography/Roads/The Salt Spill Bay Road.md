@@ -1,0 +1,1 @@
+The road heading East from the Southern edge of [[The Path to Adventure]] towards [[The Amorpha Foothills]] and [[The Great Jari Canyon]]. 

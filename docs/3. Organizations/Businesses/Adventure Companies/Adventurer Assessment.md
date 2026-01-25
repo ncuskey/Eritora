@@ -1,0 +1,5 @@
+Adventure Assessments are tests designed to assess the skill level of adventurers who are purchasing a [[CAd]]. Adventurer Assessments are required by the [[Quest, Adventure, and Dungeon Administration]] for a CAd Company to do business with an Adventurer. An Adventure Assessment is the way first time adventurers acquire a [[Prestige Score]].
+
+These assessments also help the CAd Companies provide a better customer experience for each adventurer by giving them a full break down of their strengths and weakness and by then being able to offer adventure recommendations. Traditional assessments typically run adventurers through a string of puzzles and combat scenarios in order to determine the adventurer's level. 
+
+Adventure assessments are required, by laws under the [[Quest, Adventure, and Dungeon Administration]], to cost no more than 50sp per adventurer.

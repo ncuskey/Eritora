@@ -1,0 +1,1 @@
+The only place for worship in the [[Upper Row]] in [[Turnbuckle Town]]. St. Timothy's (or Saint Tims as the locals call it) accepts worship of both the [[Lesser Aspects]] and [[Greater Aspects]], although these days worship of the [[Lesser Aspects]] is by far more common. 

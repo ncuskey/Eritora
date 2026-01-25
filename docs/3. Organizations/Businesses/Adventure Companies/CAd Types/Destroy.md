@@ -1,0 +1,1 @@
+Identify the target and eliminate it—an object, monster, structure, or system—before it can do more harm.

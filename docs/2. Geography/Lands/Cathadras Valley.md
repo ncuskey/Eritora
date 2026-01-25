@@ -1,0 +1,1 @@
+The largest valley in the [[Amorpha Mountains]] through which [[The Dewmist River]] flows. It is also home to [[Turnbuckle Town]] and [[The Path to Adventure]]. 

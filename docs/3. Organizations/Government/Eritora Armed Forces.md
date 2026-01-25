@@ -1,0 +1,1 @@
+The National Army of [[Eritora]] in service of the Queen of the [[Eritora National Government]].

@@ -1,0 +1,1 @@
+The Great Jari Canyon is a deep canyon etched into layers of sandstone on the eastern edge of [[The Amorpha Foothills]]. [[The Jari River]] flows at its bottom, continually carving deeper into [[Eritora]]. 

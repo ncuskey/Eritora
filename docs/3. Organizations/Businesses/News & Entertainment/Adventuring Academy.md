@@ -1,0 +1,1 @@
+An organization of adventurers, adventure designers, and CAd companies that vote on the [[Adventure of the Year]] award and other awards for the annual [[Dungeon Gala]] event. 

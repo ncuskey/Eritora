@@ -1,0 +1,1 @@
+Resolve a conflict through diplomacy, leverage, and careful wording—success depends on relationships as much as risks.

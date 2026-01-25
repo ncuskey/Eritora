@@ -1,0 +1,1 @@
+This is the location in [[Turnbuckle Town]] where all of the [[CAd]]s start. Here, [[AD Venture]], [[Dungeon Disasters LLC]], and [[Goblin Games]] all have their head quarters. It is also home to [[The MacColough Family Thunder Dome]].

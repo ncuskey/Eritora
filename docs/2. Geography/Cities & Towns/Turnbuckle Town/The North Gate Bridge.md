@@ -1,0 +1,1 @@
+The Northern most bridge in [[Turnbuckle Town]] that crosses [[The Dewmist River]] and lead folks through [[The North Gate]] and onward toward [[Amorpha Pass]]. 

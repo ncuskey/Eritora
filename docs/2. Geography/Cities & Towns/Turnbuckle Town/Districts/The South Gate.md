@@ -1,0 +1,1 @@
+The gate on the South side of [[Turnbuckle Town]] that leads to the [[The Path to Adventure]]. This is the less heavily fortified side of the town and guards [[The Great Dewmist Bridge]].

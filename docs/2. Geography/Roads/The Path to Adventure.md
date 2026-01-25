@@ -1,0 +1,2 @@
+The road south of [[Turnbuckle Town]] which follows [[The Dewmist River]] and leads out of the [[Amorpha Mountains]]. The road hits [[The Bay of Salt Spill]] where the road splits heading east and west. The road heading west, still referred to as [[The Path to Adventure]] heads toward the major city of [[New Turnbridge]]. The road heading east is known as [[The Salt Spill Bay Road]] and takes travelers toward [[The Amorpha Foothills]] and [[The Great Jari Canyon]]
+

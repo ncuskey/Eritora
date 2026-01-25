@@ -1,0 +1,1 @@
+A chain of small islands off the southern coast of [[Eritora]]. 

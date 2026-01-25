@@ -1,0 +1,1 @@
+The Amorpha Foothills are the chain of small hills on the eastern edge of the [[Amorpha Mountains]]. To their East lies [[The Great Jari Canyon]].  

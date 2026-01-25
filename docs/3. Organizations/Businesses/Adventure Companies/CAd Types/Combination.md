@@ -1,0 +1,1 @@
+Two or more objectives collide (fetch + escape, negotiate + protect, investigate + destroy), forcing trade-offs and improvisation.

@@ -1,0 +1,1 @@
+One of the [[Worship in the Land of Adventure#Lesser Aspects|Lesser Aspects]] of [[Tychos, God of Fortune]]

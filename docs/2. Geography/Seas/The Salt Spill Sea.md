@@ -1,0 +1,1 @@
+The Southern most sea in [[Eritora]]. Home to [[The Bay of Salt Spill]] and the [[Salt Spill Islands]]. 

@@ -1,0 +1,1 @@
+The river flowing through [[The Great Jari Canyon]]. It is the result of the confluence of many smaller rivers flowing from the eastern edge of the [[Amorpha Mountains]] and through [[The Amorpha Foothills]]. Each of these tributaries is named after one of the [[Lesser Aspects]] of [[Jari, God of Daring]]. 

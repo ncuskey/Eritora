@@ -1,0 +1,1 @@
+A ancient, now disbanded, coalition of Goblin clans from around the [[Amorpha Mountains]]. 
