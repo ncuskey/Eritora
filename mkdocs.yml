@@ -30,6 +30,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  logo: assets/logo.png
   features:
     - navigation.instant
     - navigation.tracking
@@ -38,6 +39,20 @@ theme:
     - navigation.top
     - toc.follow
     - content.code.copy
+    - content.action.edit
+    - content.action.view
+
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/your-invite-code
+      name: Join our Discord
+  generator: false
+
+copyright: Copyright &copy; 2024 Eritora Community
 
 markdown_extensions:
   - admonition
