@@ -25,7 +25,7 @@
 - All images downloaded to `docs/assets/`
 
 ### Phase 2: Wikilink Support
-**Status**: ⬜ Not Started
+**Status**: 🔄 In Progress
 **Objective**: Configure MkDocs to handle `[[wikilinks]]` syntax.
 **Deliverables**:
 - Install/configure `mkdocs-roamlinks-plugin` or similar
