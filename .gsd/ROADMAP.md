@@ -30,7 +30,7 @@
 - Basic Markdown cleaning (Discord -> Obsidian format)
 
 ### Phase 3: The Editor & Polish
-**Status**: ⬜ Not Started
+**Status**: ✅ Complete
 **Objective**: Connect the local Obsidian experience and refine the Wiki look.
 **Deliverables**:
 - "Obsidian Git" setup guide validated
