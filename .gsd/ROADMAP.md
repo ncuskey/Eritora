@@ -33,7 +33,7 @@
 - Verify all internal links work
 
 ### Phase 3: Theme Matching
-**Status**: ⬜ Not Started
+**Status**: ✅ Complete
 **Objective**: Make eritora.wiki visually identical to eritora.info.
 **Deliverables**:
 - Custom CSS in `docs/stylesheets/custom.css`
@@ -42,7 +42,7 @@
 - Navigation structure matching
 
 ### Phase 4: Verification & Polish
-**Status**: ⬜ Not Started
+**Status**: 🔄 In Progress
 **Objective**: Ensure feature parity and deploy.
 **Deliverables**:
 - Side-by-side comparison verification
