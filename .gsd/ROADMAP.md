@@ -1,47 +1,50 @@
 # ROADMAP.md
 
-> **Current Phase**: Not started
-> **Milestone**: v1.0 - The Living Wiki
+> **Current Milestone**: v1.2 Site Refinement
+> **Goal**: Clone the style and content from eritora.info (Obsidian Publish) to match functionality on eritora.wiki (MkDocs)
 
-## Must-Haves (from SPEC)
-- [ ] Validated MkDocs deployment on VM
-- [ ] Working Discord Bot that can commit files
-- [ ] Working Discord Bot that notifies on changes
-- [ ] Documented Obsidian Git setup for user
+## Must-Haves
+- [ ] All content from eritora.info migrated to eritora.wiki
+- [ ] Visual style matches Obsidian Publish theme (dark/light)
+- [ ] Wikilink syntax (`[[Page Name]]`) works correctly
+- [ ] Navigation structure mirrors original site
+
+## Nice-to-Haves
+- [ ] Hover previews on links (like Obsidian Publish)
+- [ ] Search functionality improved
+- [ ] Mobile responsiveness enhancements
 
 ## Phases
 
-### Phase 1: Foundation & Infrastructure
-**Status**: ✅ Complete
-**Objective**: Establish the "Source of Truth" repo and get the minimal Wiki running on the VM.
+### Phase 1: Content Crawl & Migration
+**Status**: ⬜ Not Started
+**Objective**: Crawl eritora.info to extract all markdown content and images.
 **Deliverables**:
-- Private GitHub Repository created
-- VM configured with SSH and dependencies (Python, Git)
-- MkDocs installed and serving a default "Hello World" site from the repo
-- Domain `eritora.info` (or temp IP) pointing to the VM
+- Python script to crawl Obsidian Publish API
+- All `.md` files extracted to `docs/`
+- All images downloaded to `docs/assets/`
 
-### Phase 2: The Bridge (Discord Bot)
-**Status**: ✅ Complete
-**Objective**: Build the Discord integration that reads/writes to the repo.
+### Phase 2: Wikilink Support
+**Status**: ⬜ Not Started
+**Objective**: Configure MkDocs to handle `[[wikilinks]]` syntax.
 **Deliverables**:
-- Python/Node Bot running on VM
-- Command `!wiki create <title> <body>` commits to repo
-- Git Hook/Poller that detects new commits and posts to `#wiki-updates`
-- Basic Markdown cleaning (Discord -> Obsidian format)
+- Install/configure `mkdocs-roamlinks-plugin` or similar
+- Convert wikilinks to standard markdown links if needed
+- Verify all internal links work
 
-### Phase 3: The Editor & Polish
-**Status**: ✅ Complete
-**Objective**: Connect the local Obsidian experience and refine the Wiki look.
+### Phase 3: Theme Matching
+**Status**: ⬜ Not Started
+**Objective**: Make eritora.wiki visually identical to eritora.info.
+**Deliverables**:
+- Custom CSS in `docs/stylesheets/custom.css`
+- Color palette matching (dark theme default)
+- Typography and spacing adjustments
+- Navigation structure matching
 
-### Phase 4: Production Deployment
-**Status**: ✅ Complete
-**Objective**: Deploy to custom domain `eritora.wiki` with Nginx and SSL.
+### Phase 4: Verification & Polish
+**Status**: ⬜ Not Started
+**Objective**: Ensure feature parity and deploy.
 **Deliverables**:
-- Nginx Configuration (`server_block`)
-- SSL Setup (Certbot)
-- DNS Records Guide
-**Deliverables**:
-- "Obsidian Git" setup guide validated
-- MkDocs "Material" theme configuration (colors, logo, layout)
-- Automatic site rebuild on git push (Webhook or Cron)
-- Final end-to-end sync verification
+- Side-by-side comparison verification
+- Fix any broken links or missing content
+- Deploy to production
