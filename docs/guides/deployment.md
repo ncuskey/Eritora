@@ -24,6 +24,22 @@ This guide covers how to deploy and maintain the Eritora system on the Linux VM.
    # Add CHANNEL_ID=...
    ```
 
+## Production: Domain & SSL
+To serve the site on `https://eritora.wiki`:
+
+1. **DNS Config (Namecheap)**:
+   - Login to Namecheap.
+   - Go to Advanced DNS.
+   - Add **A Record**: Host `@`, Value `<YOUR_VM_IP>`.
+   - Add **A Record**: Host `www`, Value `<YOUR_VM_IP>`.
+
+2. **Run Nginx Setup**:
+   ```bash
+   cd wiki
+   sudo ./scripts/ops/setup_nginx.sh
+   ```
+   Follow the Certbot prompts to enable HTTPS.
+
 ## Running the Bot
 The bot manages the wiki updates. It should run 24/7.
 
