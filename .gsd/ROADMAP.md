@@ -32,6 +32,14 @@
 ### Phase 3: The Editor & Polish
 **Status**: ✅ Complete
 **Objective**: Connect the local Obsidian experience and refine the Wiki look.
+
+### Phase 4: Production Deployment
+**Status**: ⬜ Not Started
+**Objective**: Deploy to custom domain `eritora.wiki` with Nginx and SSL.
+**Deliverables**:
+- Nginx Configuration (`server_block`)
+- SSL Setup (Certbot)
+- DNS Records Guide
 **Deliverables**:
 - "Obsidian Git" setup guide validated
 - MkDocs "Material" theme configuration (colors, logo, layout)
