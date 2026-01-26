@@ -16,35 +16,4 @@
 
 ## Phases
 
-### Phase 1: Content Crawl & Migration
-**Status**: ✅ Complete
-**Objective**: Crawl eritora.info to extract all markdown content and images.
-**Deliverables**:
-- Python script to crawl Obsidian Publish API
-- All `.md` files extracted to `docs/`
-- All images downloaded to `docs/assets/`
-
-### Phase 2: Wikilink Support
-**Status**: ✅ Complete
-**Objective**: Configure MkDocs to handle `[[wikilinks]]` syntax.
-**Deliverables**:
-- Install/configure `mkdocs-roamlinks-plugin` or similar
-- Convert wikilinks to standard markdown links if needed
-- Verify all internal links work
-
-### Phase 3: Theme Matching
-**Status**: ✅ Complete
-**Objective**: Make eritora.wiki visually identical to eritora.info.
-**Deliverables**:
-- Custom CSS in `docs/stylesheets/custom.css`
-- Color palette matching (dark theme default)
-- Typography and spacing adjustments
-- Navigation structure matching
-
-### Phase 4: Verification & Polish
-**Status**: ✅ Complete
-**Objective**: Ensure feature parity and deploy.
-**Deliverables**:
-- Side-by-side comparison verification
-- Fix any broken links or missing content
-- Deploy to production
+*No active phases. Run /plan to start.*

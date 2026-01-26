@@ -1,73 +1,16 @@
-site_name: Eritora Knowledge Base
-site_url: https://eritora.wiki
-repo_url: https://github.com/toonight/get-shit-done-for-antigravity
-repo_name: GitHub
-
-nav:
-  - Home: Welcome to Eritora.md
-  - Adventurer's Hub: 1. Adventurer's Hub
-  - Geography: 2. Geography
-  - Organizations: 3. Organizations
-  - People: 4. People
-  - Events: 5. Events
-  - Religion: 6. Religion
-  - Items: 7. Items
-  - Rules: 8. D&D 5e Rules and more!
-  - DM's Hub: 9. DM's Hub (for DM eyes only!)
-  - Community:
-      - Guides:
-          - Obsidian Setup: guides/obsidian-setup.md
-          - Deployment: guides/deployment.md
-
-theme:
-  name: material
-  palette:
-    scheme: slate
-    primary: custom
-    accent: custom
-  logo: assets/logo.png
-  features:
-    - navigation.instant
-    - navigation.tracking
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - toc.follow
-    - content.code.copy
-    - content.action.edit
-    - content.action.view
-
-  icon:
-    repo: fontawesome/brands/github
-
-extra:
-  social:
-    - icon: fontawesome/brands/discord
-      link: https://discord.gg/your-invite-code
-      name: Join our Discord
-  generator: false
-
-copyright: Copyright &copy; 2024 Eritora Community
-
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - attr_list
-  - md_in_html
-
+Warning: Duplicate filename 'War of the FireStorm' - skipping 5. Events/History/War of the FireStorm/index.md
+Warning: Duplicate slug 'war-of-the-firestorm' - skipping 5. Events/History/War of the FireStorm/index.md
+Warning: Duplicate filename 'Transportation' - skipping 3. Organizations/Businesses/Transportation/index.md
+Warning: Duplicate slug 'transportation' - skipping 3. Organizations/Businesses/Transportation/index.md
+Warning: Duplicate filename 'The MacColough Family' - skipping 4. People/The MacColough Family/index.md
+Warning: Duplicate slug 'the-maccolough-family' - skipping 4. People/The MacColough Family/index.md
+Warning: Duplicate filename 'Session 0' - skipping 9. DM's Hub (for DM eyes only!)/DM Session Notes/Session 0.md
+Warning: Duplicate slug 'session-0' - skipping 9. DM's Hub (for DM eyes only!)/DM Session Notes/Session 0.md
+Warning: Duplicate filename 'Destroy' - skipping 9. DM's Hub (for DM eyes only!)/CAd's/Destroy/index.md
+Warning: Duplicate slug 'destroy' - skipping 9. DM's Hub (for DM eyes only!)/CAd's/Destroy/index.md
+Warning: Duplicate filename 'Fetch' - skipping 9. DM's Hub (for DM eyes only!)/CAd's/Fetch/index.md
+Warning: Duplicate slug 'fetch' - skipping 9. DM's Hub (for DM eyes only!)/CAd's/Fetch/index.md
 plugins:
-  - search
-  - ezlinks:
-      wikilinks: true
-      warn_ambiguities: true
-
   - redirects:
       redirect_maps:
         '# Magic Items/index.html': '8. D&D 5e Rules and more!/Treasure/# Magic Items.md'
@@ -2080,5 +2023,3 @@ plugins:
         'z_session-template/index.html': '9. DM''s Hub (for DM eyes only!)/z_session template.md'
         'zombie/index.html': '8. D&D 5e Rules and more!/Monsters/Zombie.md'
         'zone-of-truth/index.html': '8. D&D 5e Rules and more!/Spells/Zone of Truth.md'
-extra_css:
-  - stylesheets/extra.css
