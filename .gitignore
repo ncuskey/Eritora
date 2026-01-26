@@ -26,3 +26,5 @@ site/
 
 # GSD (Ignore templates but keep structure)
 .gsd/templates/
+ssh
+ssh.pub
