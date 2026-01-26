@@ -4,7 +4,16 @@ repo_url: https://github.com/toonight/get-shit-done-for-antigravity
 repo_name: GitHub
 
 nav:
-  - Home: index.md
+  - Home: Welcome to Eritora.md
+  - Adventurer's Hub: 1. Adventurer's Hub
+  - Geography: 2. Geography
+  - Organizations: 3. Organizations
+  - People: 4. People
+  - Events: 5. Events
+  - Religion: 6. Religion
+  - Items: 7. Items
+  - Rules: 8. D&D 5e Rules and more!
+  - DM's Hub: 9. DM's Hub (for DM eyes only!)
   - Community:
       - Guides:
           - Obsidian Setup: guides/obsidian-setup.md
