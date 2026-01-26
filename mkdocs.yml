@@ -66,6 +66,8 @@ plugins:
   - search
   - ezlinks:
       wikilinks: true
+      follow_path: true
+      warn_ambiguities: true
 
 extra_css:
   - stylesheets/extra.css
