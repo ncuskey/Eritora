@@ -1,4 +1,4 @@
-![Pasted image 20260114215715.png](../../Images/Pasted image 20260114215715.png)
+
 *Medium humanoid (any race), any alignment*
 
 **Armor Class** 10
