@@ -1,12 +1,14 @@
 # Mission Control State
 
 ## Current Position
-- **Milestone**: v1.3 - Functional Parity
-- **Status**: **COMPLETE** (All phases finished)
+- **Milestone**: (None)
+- **Status**: Idle
+- **Last Action**: Completed Milestone v1.3 (Functional Parity)
 
-## Journal
-- **2026-01-28**: Milestone v1.3 complete. `scripts/final_smoke_test.py` passed.
-- **2026-01-28**: Release Certified in `docs/milestone_v1.3_report.md`.
+## Last Session Summary
+- **Milestone v1.3** completed and tagged (`v1.3`).
+- All interactive features verified on `https://eritora.wiki`.
+- Deployment pipeline verified.
 
 ## Next Steps
-1. Archive Milestone or Start v1.4.
+1. Start new milestone (e.g., `/new-milestone` or `/plan`).
