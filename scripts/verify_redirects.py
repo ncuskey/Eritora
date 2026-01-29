@@ -77,23 +77,50 @@ def verify_redirects(limit=None):
                 continue
 
             # Case 2: Meta Refresh (200 OK)
-            # mkdocs-redirects creates a small HTML file.
-            # We should check if the content looks like a redirect.
             if r.status_code == 200:
                 content = r.text.lower()
-                if 'http-equiv="refresh"' in content or 'http-equiv=\'refresh\'' in content:
-                    # It identifies as a redirect page
-                    passed += 1
-                    # print(f"[PASS] {old_path} -> Meta Refresh detected")
                 
-                # Double check for "canonical" link pointing to new target?
-                # For now, presence of refresh tag is good enough evidence it's a redirect artifact.
+                # Extract refresh target
+                match = re.search(r'content=["\']\d+;\s*url=(.*?)["\']', content, re.IGNORECASE)
+                if match:
+                    target = match.group(1)
+                    # Resolve target relative to source_url
+                    # source_url is effectively the folder (since index.html)
+                    # if source is .../foo/bar/
+                    # target is ../baz/
+                    # resolved is .../foo/baz/
+                    
+                    # Be careful if source_url ends in .html or /
+                    # In requests, the url might be .../index.html or .../
+                    base = r.url
+                    # If base ends in .html, dirname is parent.
+                    # If base ends in /, dirname is base (minus slash?)
+                    # urljoin handles this.
+                    
+                    resolved_target = urljoin(base, target)
+                    
+                    # Normalize for comparison (remove trailing slashes, decoding)
+                    def normalize(u):
+                        u = unquote(u)
+                        if u.endswith('/'): u = u[:-1]
+                        if u.endswith('/index.html'): u = u[:-11]
+                        return u
+                        
+                    norm_source = normalize(base)
+                    norm_target = normalize(resolved_target)
+                    
+                    if norm_source == norm_target:
+                         failed += 1
+                         print(f"[FAIL] {old_path} -> LOOP DETECTED. Redirects to self: {target}")
+                    else:
+                         passed += 1
+                         # print(f"[PASS] {old_path} -> {target}")
+
                 elif 'redirecting...' in content and '<script>location=' in content:
+                     # JS redirect, harder to parse, assume OK for now or parse JS
                      passed += 1
                 else:
-                    # It's a 200 OK but doesn't look like a redirect file?
-                    # Could be the homepage (Soft 404)?
-                    if len(content) > 15000: # Homepage is ~22k
+                    if len(content) > 15000:
                         failed += 1
                         print(f"[FAIL] {old_path} -> Served full page (Soft 404?) Size: {len(content)}")
                     else:
