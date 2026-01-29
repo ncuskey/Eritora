@@ -1,17 +1,16 @@
-# State
+# Mission Control State
 
 ## Current Position
-- **Milestone**: v1.2 Site Refinement
-- **Phase**: 4 - Verification & Polish
-- **Status**: ✅ Done
+- **Milestone**: v1.3 - Functional Parity
+- **Phase**: 1 (completed)
+- **Task**: All tasks complete
+- **Status**: Verified
 
-## Context
-- Completed content migration, theme matching, and deployment.
-- Site is live at `https://eritora.wiki`.
-- Navigation structure fixed with `index.md` files.
-- Wikilinks configured.
-- **Known Issue**: `Acolyte (NPC)` page has a persistent broken image warning due to sync glitches, but is functional.
+## Last Session Summary
+Phase 1 executed successfully. 1 plans, 3 tasks completed.
+- Developed `scripts/audit_site.py`.
+- Generated `docs/audit_report.md`.
+- Created `docs/verification_matrix.md`.
 
 ## Next Steps
-- /complete-milestone
-- Start v1.3 (Feature Improvements)
+1. Proceed to Phase 2: Content Restoration
